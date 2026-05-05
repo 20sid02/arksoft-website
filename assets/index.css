@@ -375,6 +375,28 @@ h2 {
   border: 1px solid var(--border);
 }
 
+.project-actions {
+  margin-top: 20px;
+}
+
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 14px;
+  border-radius: 13px;
+  color: #080704;
+  background: linear-gradient(135deg, #f4e4b5, #d7b15f 48%, #9a7837);
+  font-size: 14px;
+  font-weight: 900;
+  box-shadow: 0 14px 34px rgba(215,177,95,0.12);
+  transition: 0.2s ease;
+}
+
+.project-link:hover {
+  transform: translateY(-2px);
+}
+
 .avatar {
   width: 84px;
   height: 84px;
