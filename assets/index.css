@@ -458,6 +458,10 @@ h2 {
   min-height: 100%;
 }
 
+.project-card-wide {
+  margin-top: 18px;
+}
+
 .project-meta {
   display: flex;
   flex-wrap: wrap;
