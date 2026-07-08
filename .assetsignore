@@ -1,7 +1,8 @@
 .git
 .gitignore
 .claude
+.wrangler
 .DS_Store
 **/.DS_Store
-wrangler.toml
+wrangler.jsonc
 .assetsignore
