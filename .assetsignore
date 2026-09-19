@@ -9,3 +9,9 @@ wrangler.jsonc
 node_modules
 package.json
 package-lock.json
+
+# high-resolution brand sources — kept in the repo, not served
+assets/arksoft-logo.png
+assets/arksoft-logo-nobg.png
+assets/conduit.png
+assets/pastepure.png
