@@ -1,4 +1,4 @@
-/* ArkSoft — shared behaviour: mobile nav, scroll reveal, current year. */
+/* ArkSoft · shared behaviour: mobile nav, current year. */
 (function () {
   "use strict";
 
@@ -17,26 +17,6 @@
         links.classList.remove("is-open");
         toggle.setAttribute("aria-expanded", "false");
       }
-    });
-  }
-
-  // --- reveal on scroll --------------------------------------------------
-  var targets = document.querySelectorAll("[data-reveal]");
-
-  if (!("IntersectionObserver" in window)) {
-    targets.forEach(function (el) { el.classList.add("is-in"); });
-  } else {
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (entry) {
-        if (!entry.isIntersecting) return;
-        entry.target.classList.add("is-in");
-        io.unobserve(entry.target);
-      });
-    }, { rootMargin: "0px 0px -8% 0px", threshold: 0.08 });
-
-    targets.forEach(function (el, i) {
-      el.style.transitionDelay = Math.min(i % 4, 3) * 70 + "ms";
-      io.observe(el);
     });
   }
 

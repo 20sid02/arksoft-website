@@ -3,15 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ArkSoft Industries · Software, Firmware and Hardware</title>
-<meta name="description" content="ArkSoft builds the systems that run gates, armouries, stores and service desks. We write the application, we write the firmware on the boards it drives, and we install it on site.">
-<meta name="theme-color" content="#050505">
+<title>ArkSoft Industries · Enterprise Systems and Software</title>
+<meta name="description" content="ArkSoft Industries designs, develops and deploys enterprise systems and software products for security, asset management and operations.">
+<meta name="theme-color" content="#070707">
 <link rel="canonical" href="https://arksoft.xyz/">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="ArkSoft Industries">
-<meta property="og:title" content="ArkSoft Industries · Software, Firmware and Hardware">
-<meta property="og:description" content="ArkSoft builds the systems that run gates, armouries, stores and service desks. We write the application, we write the firmware on the boards it drives, and we install it on site.">
+<meta property="og:title" content="ArkSoft Industries · Enterprise Systems and Software">
+<meta property="og:description" content="ArkSoft Industries designs, develops and deploys enterprise systems and software products for security, asset management and operations.">
 <meta property="og:url" content="https://arksoft.xyz/">
 <meta property="og:image" content="https://arksoft.xyz/assets/og-cover.jpg">
 <meta name="twitter:card" content="summary_large_image">
@@ -34,7 +34,7 @@
   "logo": "https://arksoft.xyz/assets/apple-touch-icon.png",
   "email": "siddharthmahajan@arksoft.xyz",
   "founder": { "@type": "Person", "name": "Siddharth Mahajan" },
-  "description": "Software, firmware and hardware integration for gates, armouries, stores and service desks."
+  "description": "Enterprise systems and software products for security, asset management and operations."
 }
 </script>
 </head>
@@ -45,7 +45,7 @@
 <header class="nav">
   <div class="container nav-inner">
     <a class="brand" href="/" aria-label="ArkSoft Industries home">
-      <img class="brand-mark" src="assets/arksoft-mark.svg" alt="" width="38" height="38">
+      <img class="brand-mark" src="assets/arksoft-mark.svg" alt="" width="36" height="36">
       <span class="brand-text">
         <strong>ARKSOFT</strong>
         <span>Industries</span>
@@ -59,9 +59,9 @@
 
     <nav class="nav-links" id="nav-links" aria-label="Primary">
       <a href="/" aria-current="page">Home</a>
-      <a href="systems.html">Systems</a>
+      <a href="products.html">Products</a>
       <a href="about.html">Company</a>
-      <a class="nav-cta" href="about.html#contact">Start a project</a>
+      <a class="nav-cta" href="about.html#contact">Contact us</a>
     </nav>
   </div>
 </header>
@@ -69,315 +69,92 @@
 <main id="main">
 
 <section class="hero">
-  <div class="container hero-grid">
-    <div>
-      <span class="kicker">Hardware and software, under one roof</span>
-      <h1>Software, firmware, and&nbsp;the <span class="metal">hardware</span> in&nbsp;between.</h1>
-      <p class="lead">
-        ArkSoft builds the systems that run gates, armouries, stores and service desks. We write the
-        application, we write the firmware on the boards it drives, and we install the result on
-        site. Most of it runs on a closed network and never touches the internet.
-      </p>
-
-      <div class="btn-row">
-        <a class="btn btn-primary" href="systems.html">See the systems</a>
-        <a class="btn btn-ghost" href="about.html#contact">Talk to us</a>
-      </div>
-
-      <div class="hero-facts">
-        <span class="hero-fact"><b>Built</b> End to end</span>
-        <span class="hero-fact"><b>Runs</b> Offline</span>
-        <span class="hero-fact"><b>Installed</b> On site</span>
-      </div>
-    </div>
-
-    <aside class="schematic" data-reveal>
-      <div class="schematic-head">
-        <span class="mono">A typical install</span>
-        <span class="tag"><span class="pulse"></span>Offline LAN</span>
-      </div>
-
-      <svg viewBox="0 0 600 400" role="img" aria-labelledby="schematic-title schematic-desc">
-        <title id="schematic-title">A typical ArkSoft installation</title>
-        <desc id="schematic-desc">One machine on site runs the application and database with no internet connection. Over a closed LAN it drives lock controllers, which switch solenoid locks and read slot sensors, and serves kiosk tablets and guard phones. A fingerprint reader, scanner and printer connect to the machine over USB.</desc>
-
-        <rect class="node node-gold" x="14" y="112" width="184" height="98" rx="12"/>
-        <text class="node-g" x="32" y="138">On site</text>
-        <text class="node-t" x="32" y="162">Application + database</text>
-        <text class="node-s" x="32" y="182">One machine</text>
-        <text class="node-s" x="32" y="198">No internet</text>
-
-        <rect class="node" x="14" y="252" width="184" height="118" rx="12"/>
-        <text class="node-s" x="32" y="276">Over USB</text>
-        <text class="node-t" x="32" y="300">Fingerprint reader</text>
-        <text class="node-t" x="32" y="326">QR / RFID scanner</text>
-        <text class="node-t" x="32" y="352">Report printer</text>
-        <path class="wire-dim" d="M100 210 V252"/>
-
-        <text class="wire-t" x="252" y="30" text-anchor="middle">Closed LAN</text>
-        <line class="wire wire-flow" x1="252" y1="42" x2="252" y2="356"/>
-        <circle cx="252" cy="83" r="3.2" fill="#d7b15f"/>
-        <circle cx="252" cy="161" r="3.2" fill="#d7b15f"/>
-        <circle cx="252" cy="189" r="3.2" fill="#d7b15f"/>
-        <circle cx="252" cy="311" r="3.2" fill="#d7b15f"/>
-        <path class="wire" d="M198 161 H252"/>
-
-        <rect class="node node-gold" x="306" y="44" width="280" height="78" rx="12"/>
-        <text class="node-g" x="324" y="68">Our firmware</text>
-        <text class="node-t" x="324" y="92">Lock controllers</text>
-        <text class="node-s" x="324" y="110">Poll for commands &middot; fail locked</text>
-        <path class="wire wire-flow" d="M252 83 H306"/>
-
-        <rect class="node" x="306" y="150" width="280" height="78" rx="12"/>
-        <text class="node-s" x="324" y="174">Rack hardware</text>
-        <text class="node-t" x="324" y="198">Solenoid locks + slot sensors</text>
-        <text class="node-s" x="324" y="216">Relay switched &middot; occupancy sensed</text>
-        <path class="wire" d="M252 189 H306"/>
-        <path class="wire" d="M420 122 V150"/>
-        <text class="wire-t" x="430" y="140">Relay + sense</text>
-
-        <rect class="node" x="306" y="272" width="280" height="78" rx="12"/>
-        <text class="node-s" x="324" y="296">Front of house</text>
-        <text class="node-t" x="324" y="320">Kiosk tablet &middot; guard phone</text>
-        <text class="node-s" x="324" y="338">Browser only &middot; nothing installed</text>
-        <path class="wire wire-flow" d="M252 311 H306"/>
-      </svg>
-
-      <div class="schematic-foot">
-        <span class="chip chip-gold">We write the application</span>
-        <span class="chip chip-gold">We flash the firmware</span>
-        <span class="chip chip-gold">We commission it on site</span>
-      </div>
-    </aside>
-  </div>
-</section>
-
-<section class="tight">
   <div class="container">
-    <div class="section-head" data-reveal>
-      <span class="kicker">What we do</span>
-      <h2>Both halves, or it doesn't work.</h2>
-      <p class="lead">
-        A locking system is only as good as the moment the software asks a physical device to do
-        something and has to know it happened. We build both sides of that moment.
-      </p>
-    </div>
-
-    <div class="pillars">
-      <article class="pillar" data-reveal>
-        <div class="pillar-head">
-          <span class="card-ico" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg>
-          </span>
-          <div>
-            <h3>Software</h3>
-            <span class="mono">Applications &middot; kiosks &middot; dashboards</span>
-          </div>
-        </div>
-
-        <p>Everything runs on one machine in the building. No cloud account, no subscription, nothing to renew.</p>
-
-        <ul class="spec-list">
-          <li><span><b>Roles and audit trails.</b> Submitted records lock, and overrides are logged.</span></li>
-          <li><span><b>Kiosk, tablet and phone screens.</b> One action each, nothing to install.</span></li>
-          <li><span><b>Printed output.</b> Numbered reports and authorizations, produced on the machine.</span></li>
-          <li><span><b>Live dashboards.</b> Gate activity, stock, open tickets, batch progress.</span></li>
-          <li><span><b>Phone and desktop apps</b> for the products we publish ourselves.</span></li>
-        </ul>
-      </article>
-
-      <article class="pillar" data-reveal>
-        <div class="pillar-head">
-          <span class="card-ico" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="8" height="8" rx="1"/><path d="M12 2v6M12 16v6M2 12h6M16 12h6M5 5l3 3M19 5l-3 3M5 19l3-3M19 19l-3-3"/></svg>
-          </span>
-          <div>
-            <h3>Hardware</h3>
-            <span class="mono">Firmware &middot; controllers &middot; readers</span>
-          </div>
-        </div>
-
-        <p>Controller boards, bench-tested against real relays and sensors before anything is screwed to a rack.</p>
-
-        <ul class="spec-list">
-          <li><span><b>Solenoid locking.</b> Relay driven, with the unlock window enforced on the board itself.</span></li>
-          <li><span><b>Slot sensing.</b> Debounced, so a knocked rack does not read as a removal.</span></li>
-          <li><span><b>Biometrics.</b> Fingerprint readers wired straight into the application.</span></li>
-          <li><span><b>Scanners and cards.</b> QR and RFID readers, and card issue and printing.</span></li>
-          <li><span><b>Device checks.</b> Read-only interrogation of Android handsets over USB.</span></li>
-        </ul>
-      </article>
+    <span class="label">ArkSoft Industries</span>
+    <h1>Technology solutions for secure and efficient operations.</h1>
+    <p class="lead">
+      ArkSoft Industries designs, develops and deploys enterprise systems and software products.
+      We help organisations strengthen control, improve accountability and streamline their
+      day-to-day operations.
+    </p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="products.html">View products</a>
+      <a class="btn btn-secondary" href="about.html#contact">Contact us</a>
     </div>
   </div>
 </section>
 
 <section>
   <div class="container">
-    <div class="section-head-split" data-reveal>
-      <div>
-        <span class="kicker">Systems</span>
-        <h2>What we've built.</h2>
+    <div class="section-head-row">
+      <div class="section-head">
+        <span class="label">What we do</span>
+        <h2>Solutions</h2>
       </div>
-      <a class="link-gold" href="systems.html">All systems &rarr;</a>
+      <a class="text-link" href="products.html">View all products &rarr;</a>
     </div>
 
-    <div class="grid grid-3">
-      <article class="card" data-reveal>
-        <span class="card-ico" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3M12 15v2"/></svg>
-        </span>
-        <h3>CLASP</h3>
-        <p>
-          Armoury issue and return. A fingerprint at the kiosk opens only the rack slots that person
-          is entitled to, sensors confirm what was taken, and the log can't be edited afterwards.
-        </p>
-        <div class="chip-row">
-          <span class="chip chip-gold">Hardware + software</span>
-          <span class="chip">Biometrics</span>
-        </div>
-      </article>
-
-      <article class="card" data-reveal>
-        <span class="card-ico" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3v3h-3zM20 14v3M17 20h4"/></svg>
-        </span>
-        <h3>Access Control</h3>
-        <p>
-          QR-coded cards for gates and guards. Registration, card printing, scanning from an ordinary
-          phone camera, validity rules, and a complete entry-exit log.
-        </p>
-        <div class="chip-row">
-          <span class="chip">QR / RFID</span>
-          <span class="chip">Multi-gate</span>
-        </div>
-      </article>
-
-      <article class="card" data-reveal>
-        <span class="card-ico" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/><path d="m3 9 2 2-2 2"/></svg>
-        </span>
-        <h3>Kavach AppAudit</h3>
-        <p>
-          A compliance kiosk at the entry point. Plug in an Android phone, tap Allow, get a verdict
-          against the banned-apps list and a printed report. Read-only, and entirely offline.
-        </p>
-        <div class="chip-row">
-          <span class="chip chip-gold">Kiosk</span>
-          <span class="chip">USB scanning</span>
-        </div>
-      </article>
-
-      <article class="card" data-reveal>
-        <span class="card-ico" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7 12 3l9 4-9 4Z"/><path d="M3 7v10l9 4 9-4V7"/><path d="M12 11v10"/></svg>
-        </span>
-        <h3>Issue &amp; Demand</h3>
-        <p>
-          Entitlement scales and headcounts turned into demands, then receipts, allocation and issue
-          against a printed authorization, with a ledger that explains every figure.
-        </p>
-        <div class="chip-row">
-          <span class="chip">Entitlements</span>
-          <span class="chip">Stock ledger</span>
-        </div>
-      </article>
-
-      <article class="card" data-reveal>
-        <span class="card-ico" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 1-5 5L4 17v3h3l5.7-5.7a4 4 0 0 1 5-5l-2.5-2.5Z"/></svg>
-        </span>
-        <h3>FixDesk</h3>
-        <p>
-          Maintenance ticketing. A complaint raised from a QR code on the wall reaches the right
-          trade automatically and closes only once the work has been verified.
-        </p>
-        <div class="chip-row">
-          <span class="chip">QR locations</span>
-          <span class="chip">SLA clocks</span>
-        </div>
-      </article>
-
-      <article class="card" data-reveal>
-        <span class="card-ico" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 15 4-5 3 3 5-7"/></svg>
-        </span>
-        <h3>DASE</h3>
-        <p>
-          Assessment and selection on tablets. Scores are entered against a batch, each record locks
-          on submit, and the ranked list comes out the same session instead of the next day.
-        </p>
-        <div class="chip-row">
-          <span class="chip">Tamper-proof</span>
-          <span class="chip">Offline</span>
-        </div>
-      </article>
+    <div class="grid grid-4">
+      <a class="card card-rule" href="products.html#security">
+        <h3>Security and Access</h3>
+        <p>Identity verification, controlled access and secure management of sensitive assets.</p>
+      </a>
+      <a class="card card-rule" href="products.html#assets">
+        <h3>Asset and Inventory Management</h3>
+        <p>Tracking, allocation and accountability for equipment and stock across the organisation.</p>
+      </a>
+      <a class="card card-rule" href="products.html#operations">
+        <h3>Operations and Administration</h3>
+        <p>Workforce management, facilities maintenance and structured assessment processes.</p>
+      </a>
+      <a class="card card-rule" href="products.html#applications">
+        <h3>Productivity Applications</h3>
+        <p>Applications for individuals and teams on iOS, macOS and the web.</p>
+      </a>
     </div>
   </div>
 </section>
 
-<section class="tight">
+<section class="section-alt">
   <div class="container">
-    <div class="section-head-split" data-reveal>
-      <div>
-        <span class="kicker">Our own products</span>
-        <h2>Software we publish ourselves.</h2>
-      </div>
+    <div class="section-head">
+      <span class="label">Why ArkSoft</span>
+      <h2>Our strengths</h2>
     </div>
 
-    <div class="grid grid-3">
-      <article class="product" data-reveal>
-        <img class="product-ico" src="assets/conduit-256.png" alt="" width="50" height="50" loading="lazy">
-        <h3>Conduit</h3>
-        <p>
-          An iOS vault for freelancers, solo developers and homelab users. Projects, deployments,
-          URLs, ports, services and credentials in one place.
-        </p>
-        <div class="chip-row"><span class="chip">iOS</span></div>
-        <a class="link-gold" href="https://conduit.arksoft.xyz" target="_blank" rel="noopener">conduit.arksoft.xyz &rarr;</a>
-      </article>
-
-      <article class="product" data-reveal>
-        <img class="product-ico" src="assets/pastepure-256.png" alt="" width="50" height="50" loading="lazy">
-        <h3>PastePure</h3>
-        <p>
-          A macOS service that cleans every URL you copy, stripping trackers and campaign tags before
-          the link reaches your clipboard.
-        </p>
-        <div class="chip-row"><span class="chip">macOS</span></div>
-        <a class="link-gold" href="https://pastepure.arksoft.xyz" target="_blank" rel="noopener">pastepure.arksoft.xyz &rarr;</a>
-      </article>
-
-      <article class="product" data-reveal>
-        <span class="product-ico product-ico-glyph" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h11l5 4v10H4Z"/><path d="M8 10h6M8 14h8"/></svg>
-        </span>
-        <h3>Shiplog</h3>
-        <p>
-          Turns GitHub pull requests into changelogs people outside engineering can read. Available
-          as a service and a CLI.
-        </p>
-        <div class="chip-row"><span class="chip chip-gold">Beta</span></div>
-        <a class="link-gold" href="https://shiplogbeta.arksoft.xyz" target="_blank" rel="noopener">Join the beta &rarr;</a>
-      </article>
+    <div class="grid grid-4">
+      <div class="feature">
+        <h3>End-to-end delivery</h3>
+        <p>Requirement analysis, design, deployment and training, delivered by a single accountable team.</p>
+      </div>
+      <div class="feature">
+        <h3>Security and compliance</h3>
+        <p>Role-based access, audit trails and data integrity built into every system.</p>
+      </div>
+      <div class="feature">
+        <h3>Configurable solutions</h3>
+        <p>Products that adapt to each organisation's processes, policies and scale.</p>
+      </div>
+      <div class="feature">
+        <h3>Ongoing support</h3>
+        <p>Continued assistance and enhancements after deployment.</p>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="tight">
+<section>
   <div class="container">
-    <div class="cta-panel" data-reveal>
+    <div class="cta">
       <div>
-        <span class="kicker">Start a project</span>
-        <h2>Tell us what has to happen at the gate.</h2>
-        <p>Describe the operation rather than the software. We'll work out the rest.</p>
+        <h2>Discuss your requirements</h2>
+        <p>Contact us for product information or to arrange a consultation.</p>
       </div>
-      <div class="btn-row">
-        <a class="btn btn-primary" href="mailto:siddharthmahajan@arksoft.xyz">Email ArkSoft</a>
-        <a class="btn btn-ghost" href="about.html#contact">Contact</a>
-      </div>
+      <a class="btn btn-primary" href="about.html#contact">Contact us</a>
     </div>
   </div>
 </section>
+
 </main>
 
 <footer class="footer">
@@ -385,26 +162,26 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <a class="brand" href="/">
-          <img class="brand-mark" src="assets/arksoft-mark.svg" alt="" width="38" height="38">
+          <img class="brand-mark" src="assets/arksoft-mark.svg" alt="" width="36" height="36">
           <span class="brand-text"><strong>ARKSOFT</strong><span>Industries</span></span>
         </a>
         <p>
-          Software, firmware and the hardware in between.<br>
+          Enterprise systems and software products.<br>
           Solan, Himachal Pradesh, India.
         </p>
       </div>
 
       <div class="footer-col">
-        <h4>Firm</h4>
+        <h4>Company</h4>
         <ul>
           <li><a href="/">Home</a></li>
-          <li><a href="systems.html">Systems</a></li>
+          <li><a href="products.html">Products</a></li>
           <li><a href="about.html">Company</a></li>
         </ul>
       </div>
 
       <div class="footer-col">
-        <h4>Products</h4>
+        <h4>Applications</h4>
         <ul>
           <li><a href="https://conduit.arksoft.xyz" target="_blank" rel="noopener">Conduit</a></li>
           <li><a href="https://pastepure.arksoft.xyz" target="_blank" rel="noopener">PastePure</a></li>
@@ -416,13 +193,12 @@
         <h4>Contact</h4>
         <ul>
           <li><a href="mailto:siddharthmahajan@arksoft.xyz">siddharthmahajan@arksoft.xyz</a></li>
-          <li><a href="about.html#contact">Send an enquiry</a></li>
         </ul>
       </div>
     </div>
 
     <div class="footer-bottom">
-      <span>&copy; <span data-year>2026</span> ArkSoft Industries</span>
+      <span>&copy; <span data-year>2026</span> ArkSoft Industries. All rights reserved.</span>
       <span>arksoft.xyz</span>
     </div>
   </div>
